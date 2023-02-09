@@ -1,6 +1,6 @@
-NeoOS 2.1.2
+### NeoOS 2.1.2
 
-Commands [enter the content between brackets with no spaces]
+#### Commands [enter the content between brackets with no spaces]
 
 [os] - opens os menu
 
@@ -24,15 +24,10 @@ Commands [enter the content between brackets with no spaces]
 
 [counter] - simple GUI counter
 
-[passgen] - emulates PassGen Mini 1.0 in console - create random passwords!
+[passgen] - PassGen Mini 1.0  - create random passwords!
 
 [cat] - runs cat sim!
 
 [animate] - runs a text animation program
 
-Installing apps
-
-Place your PY file in the apps folder, then
-run the os command and enter the "Install an app" program
-
-
+[tcch2] - open Transcube Chapter 2 in Browser!

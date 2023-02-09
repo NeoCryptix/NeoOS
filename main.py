@@ -90,5 +90,10 @@ def main():
             os.system('cls')
             import apps.animate
             apps.animate.main()
+        
+        if osmenu == 'tcch2':
+            os.system('cls')
+            import apps.tcch2
+            apps.tcch2.tcch2()
 
 main()

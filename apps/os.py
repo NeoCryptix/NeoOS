@@ -9,16 +9,17 @@ def main():
  TYELLOW = '\033[33m'  # reset to the defaults
  TORANGE = '\033[33m'  # reset to the defaults
 
- menu = input(TWHITE + "[info] View OS info\n[install] Install an app\n[exit] Exit\n" + TGREEN + '>> ' + TWHITE)
+ menu = input(TWHITE + "[info] View OS info\n[github] View GitHub page\n[exit] Exit\n" + TGREEN + '>> ' + TWHITE)
 
  if menu == 'info':
-  import apps.menu.info
-  apps.menu.info.main()
+    import apps.menu.info
+    apps.menu.info.main()
 
- if menu == 'install':
-  import apps.menu.install
-  apps.menu.install.main()
+ if menu == 'github':
+    import webbrowser
+    url = "https://github.com/NeoCryptix/NeoOS"
+    webbrowser.open(url, new=0, autoraise=True)
 
  if menu == 'exit':
-  import main
-  main.main()
+    import main
+    main.main()

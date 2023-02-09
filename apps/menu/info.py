@@ -12,8 +12,8 @@ from os import environ
 
 os.system('cls')
 print(TWHITE + 'Not logged in')
-print('NeoOS v2.1dev6')
-print('Last updated 11/16/22')
+print('NeoOS v2.1.3')
+print('Last updated 2/9/23')
 print('Made by NeoCryptix')
 
 input('\n\nPress ENTER to return to the command portal.')
