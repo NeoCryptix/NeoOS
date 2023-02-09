@@ -1,5 +1,4 @@
-NeoOS 2.1dev6
-This software is not for sale nor distribution.
+NeoOS 2.1.1
 
 Commands [enter the content between brackets with no spaces]
 
